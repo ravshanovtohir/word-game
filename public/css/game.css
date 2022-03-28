@@ -1,0 +1,84 @@
+.users_big_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.start_btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+}
+
+.results_wrapper {
+    display: flex;
+}
+
+.players_list {
+    height: 600px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.players_item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.players_img {
+    display: flex;
+    size: 10%;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.result_title {
+    color: white;
+}
+
+.results {
+    margin-left: 30vmax;
+    height: 200px;
+    margin-top: 6vmax;
+    padding: 20px;
+}
+
+.players_name {
+    margin: 15px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.result_content_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.result_last {
+    color: white;
+    margin-left: 20px;
+}
+
+.result_player_name {
+    margin-left: 20px;
+    color: white;
+}
+
+.result_input {
+    width: 150px;
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 30px;
+}
